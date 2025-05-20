@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.sitheader {
+text-align: left;
+padding: 1rem 1rem;
+}
+.sitheader h1 {
+font-size: 2.4rem;
+font-weight: 700;
+}
+.emojis {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 1.4rem;
+padding: 1.4rem;
+}
+.emoji {
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%
+    padding: 3rem;
+}
+.icon {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #ddd;
+    
+}
+.emoji p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    flex-grow: 1;
+}
+.emoji a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #aa1298;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    
+
+}
